@@ -1,0 +1,45 @@
+{
+  "name": "sudoku_example2",
+  "version": "0.0.1",
+  "description": "sudoku_example on pixi.js",
+  "main": "dist/example.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://kimorkim@github.com/ossas/sudoku_example2.git"
+  },
+  "author": "kimorkim",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ossas/sudoku_example2/issues"
+  },
+  "homepage": "https://github.com/ossas/sudoku_example2#readme",
+  "devDependencies": {
+    "babel": "^6.5.2",
+    "babel-core": "^6.14.0",
+    "babel-loader": "^6.2.5",
+    "babel-plugin-add-module-exports": "^0.2.1",
+    "babel-plugin-transform-es2015-modules-umd": "^6.12.0",
+    "babel-preset-es2015": "^6.14.0",
+    "babel-preset-react": "^6.11.1",
+    "babel-preset-stage-2": "^6.13.0",
+    "babel-runtime": "^6.11.6",
+    "brfs": "^1.4.3",
+    "browserify-versionify": "^1.0.6",
+    "core-js": "^2.4.1",
+    "css-loader": "^0.25.0",
+    "ify-loader": "^1.0.3",
+    "json-loader": "^0.5.4",
+    "less": "^2.7.1",
+    "less-loader": "^2.2.3",
+    "style-loader": "^0.13.1",
+    "transform-loader": "^0.2.3",
+    "webpack": "^1.13.2"
+  },
+  "dependencies": {
+    "pixi.js": "^4.0.1",
+    "sudokumaker": "^1.0.9"
+  }
+}
